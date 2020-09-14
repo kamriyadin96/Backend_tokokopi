@@ -1,0 +1,31 @@
+{
+  "name": "arkabackend",
+  "version": "1.0.0",
+  "description": "belajar api dengan express js dan node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "restfull"
+  ],
+  "author": "Kamriyadin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.0.0-beta.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pg": "^8.3.3",
+    "pg-pool": "^3.2.1",
+    "redis": "^3.0.2"
+  }
+}
